@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .section-dark-grey {
+    --bg: #252525;
+    --text: white;
+    --text-alt: #252525;
+  }
+  .section-red {
+    --bg: #d62323;
+    --text: white;
+    --text-alt: #d62323;
+  }
+  .section-yellow {
+    --bg: #ffde00;
+    --text: #252525;
+    --text-alt: #252525;
+  }
+  .section-green {
+    --bg: #298801;
+    --text: white;
+    --text-alt: #298801;
+  }
+  .section-blue {
+    --bg: #1b49be;
+    --text: white;
+    --text-alt: #1b49be;
+  }
+  .section-grey {
+    --bg: #252525;
+    --text: white;
+    --text-alt: #252525;
+  }
+  .section-light-grey {
+    --bg: #eee;
+    --text: #252525;
+    --text-alt: #eee;
+  }
+}
+
+@layer utilities {
+  .triangle {
+    width: 0;
+    height: 0;
+    border: 30px solid transparent;
+    border-top: 0;
+    border-bottom: 40px solid #298801;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(30px);
+    rotate: 180deg;
+  }
+}

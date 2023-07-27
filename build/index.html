@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apollo Design - World Class Web Design Leeds</title>
+    <link rel="stylesheet" href="css/output.css" />
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon" />
+  </head>
+  <body class="font-josefin overflow-x-hidden">
+    <header class="bg-section">
+      <div
+        class="w-5/6 max-w-[1440px] mx-auto py-10 lg:flex justify-between items-baseline"
+      >
+        <a href="index.html">
+          <img id="logo" class="h-16 mx-auto" src="img/logo.png" />
+        </a>
+        <nav class="hidden lg:flex gap-5 text-prim text-xl">
+          <a class="underline decoration-4 underline-offset-8" href="index.html"
+            >HOME</a
+          >
+          <a
+            class="hover:underline decoration-0 hover:decoration-4 hover:underline-offset-8 duration-100"
+            href="about.html"
+            >ABOUT</a
+          >
+          <a
+            class="hover:underline decoration-0 hover:decoration-4 hover:underline-offset-8 duration-100"
+            href="approach.html"
+            >APPROACH</a
+          >
+          <a
+            class="hover:underline decoration-0 hover:decoration-4 hover:underline-offset-8 duration-100"
+            href="work.html"
+            >WORK</a
+          >
+          <a
+            class="hover:underline decoration-0 hover:decoration-4 hover:underline-offset-8 duration-100"
+            href="careers.html"
+            >CAREERS</a
+          >
+          <a
+            class="hover:underline decoration-0 hover:decoration-4 hover:underline-offset-8 duration-100"
+            href="contact.html"
+            >CONTACT</a
+          >
+        </nav>
+        <div
+          id="toggle"
+          class="z-30 fixed top-0 right-0 bg-toggle-default bg-center bg-[length:50%_50%] bg-no-repeat h-12 w-12 bg-white/50 cursor-pointer lg:hidden"
+        ></div>
+      </div>
+    </header>
+    <nav
+      id="side-nav"
+      class="z-20 scroll translate-x-full fixed flex flex-col top-0 right-0 bg-gray-100 gap-1 w-full min-h-screen pt-12 duration-700 md:w-72 lg:hidden"
+    >
+      <a class="bg-white p-3 mt-1" href="index.html">HOME</a>
+      <a class="bg-white p-3" href="about.html">ABOUT</a>
+      <a class="bg-white p-3" href="approach.html">APPROACH</a>
+      <a class="bg-white p-3" href="work.html">WORK</a>
+      <a class="bg-white p-3" href="careers.html">CAREERS</a>
+      <a class="bg-white p-3" href="contact.html">CONTACT</a>
+    </nav>
+    <main
+      class="bg-section flex flex-col justify-center min-h-[calc(100vh_-_144px)] lg:min-h-[calc(100vh_-_153px)] pb-40 md:p-0"
+    >
+      <div
+        class="flex flex-col justify-between gap-9 w-5/6 max-w-[1440px] mx-auto items-center py-4 md:flex-row"
+      >
+        <div class="basis-1/2">
+          <img id="theme-image" class="rounded-[50%] mx-auto w-2/3 md:w-full" />
+        </div>
+        <div
+          class="basis-1/2 text-prim flex flex-col gap-5 text-center md:text-left"
+        >
+          <h2 class="text-4xl uppercase">Beautiful form, perfect function.</h2>
+          <p class="text-xl">
+            We create beautifully-crafted websites that stand out from the crowd
+            – and perfect function comes as standard.
+          </p>
+          <a
+            class="text-lg uppercase underline decoration-2 underline-offset-8 hover:decoration-4 duration-200"
+            href="approach.html"
+            >See how we work</a
+          >
+        </div>
+      </div>
+      <div
+        onclick="location.href='careers.html'"
+        class="z-10 fixed bottom-3 right-2 p-2 bg-white text-blue-700 rounded-[50%] h-24 w-24 duration-500 cursor-pointer animate-bounce hover:shadow-xl hover:border-gray-600 hover:border-[1px]"
+      >
+        <div
+          class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 flex flex-col items-center text-center"
+        >
+          <p class="text-4xl">+</p>
+          <p class="text-sm">WE'RE HIRING</p>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="js/homepage-randomization.js"></script>
+  <script src="js/side-menu.js"></script>
+</html>
